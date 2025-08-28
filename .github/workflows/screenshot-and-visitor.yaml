@@ -168,10 +168,10 @@ jobs:
           fi
 
           # Додаємо інструменти
-          TECH_BADGES="$TECH_BADGES[![Terminal](https://img.shields.io/badge/mac%20terminal-000000?style=for-the-badge&logo=apple&logoColor=white&labelColor=000000)](https://support.apple.com/guide/terminal/welcome/mac) "
           TECH_BADGES="$TECH_BADGES[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/) "
           TECH_BADGES="$TECH_BADGES[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) "
           TECH_BADGES="$TECH_BADGES[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/) "
+          TECH_BADGES="$TECH_BADGES[![Terminal](https://img.shields.io/badge/Terminal-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://support.apple.com/guide/terminal/welcome/mac) "
 
           echo "$TECH_BADGES" > "$DATA_DIR/tech-badges.txt"
 
